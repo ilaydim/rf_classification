@@ -1,0 +1,216 @@
+ilay@192 rf_classification % source venv/bin/activate
+(venv) ilay@192 rf_classification % python train.py --model hybrid  / python train.py --model hybrid --resume 
+Etiketler okunuyor (bir kez)...
+Etiketler hazır.
+Train: 1,533,542  Val: 511,181  Test: 511,181
+
+=======================================================
+  Model    : HYBRID
+  Cihaz    : mps
+  Epochs   : 1 → 100
+  Batch    : 512
+  Parametre: 426,520
+=======================================================
+
+Epoch   1/100 | Tr: loss=1.6558 acc=0.4164 | Val: loss=1.4772 acc=0.4834 | LR=1.00e-03 | 2136.2s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.4834)
+Epoch   2/100 | Tr: loss=1.4537 acc=0.4931 | Val: loss=1.3728 acc=0.5192 | LR=1.00e-03 | 2264.8s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.5192)
+Epoch   3/100 | Tr: loss=1.3947 acc=0.5137 | Val: loss=1.4173 acc=0.5200 | LR=1.00e-03 | 2188.6s                                                                                    
+Epoch   4/100 | Tr: loss=1.3685 acc=0.5230 | Val: loss=1.3763 acc=0.5302 | LR=1.00e-03 | 2143.9s                                                                                    
+Epoch   5/100 | Tr: loss=1.3537 acc=0.5287 | Val: loss=1.3709 acc=0.5311 | LR=1.00e-03 | 2053.0s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.5311)
+Epoch   6/100 | Tr: loss=1.3426 acc=0.5336 | Val: loss=1.3962 acc=0.5315 | LR=1.00e-03 | 2058.0s                                                                                    
+Epoch   7/100 | Tr: loss=1.3348 acc=0.5362 | Val: loss=1.3398 acc=0.5419 | LR=1.00e-03 | 2058.6s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.5419)
+Epoch   8/100 | Tr: loss=1.3280 acc=0.5388 | Val: loss=1.4366 acc=0.5179 | LR=1.00e-03 | 2056.0s                                                                                   
+Epoch   9/100 | Tr: loss=1.3229 acc=0.5407 | Val: loss=1.3792 acc=0.5317 | LR=1.00e-03 | 2080.7s 
+Epoch  10/100 | Tr: loss=1.3181 acc=0.5431 | Val: loss=1.3943 acc=0.5325 | LR=1.00e-03 | 2108.6s        
+Epoch  11/100 | Tr: loss=1.3138 acc=0.5449 | Val: loss=1.3735 acc=0.5338 | LR=1.00e-03 | 2097.1s 
+Epoch  12/100 | Tr: loss=1.3101 acc=0.5466 | Val: loss=1.3537 acc=0.5462 | LR=1.00e-03 | 2129.9s                                          
+Epoch  13/100 | Tr: loss=1.3063 acc=0.5495 | Val: loss=1.4141 acc=0.5341 | LR=5.00e-04 | 2191.1s                                                                                                             
+Epoch  14/100 | Tr: loss=1.2904 acc=0.5566 | Val: loss=1.3258 acc=0.5611 | LR=5.00e-04 | 2132.1s                                                                                                             
+  ✓ En iyi model kaydedildi (val_acc=0.5611)
+Epoch  15/100 | Tr: loss=1.2861 acc=0.5595 | Val: loss=1.3356 acc=0.5559 | LR=5.00e-04 | 2074.9s                                                                                                             
+Epoch  16/100 | Tr: loss=1.2832 acc=0.5612 | Val: loss=1.3780 acc=0.5502 | LR=5.00e-04 | 2100.7s
+Epoch  17/100 | Tr: loss=1.2803 acc=0.5628 | Val: loss=1.3355 acc=0.5564 | LR=5.00e-04 | 2110.0s                                       
+Epoch  18/100 | Tr: loss=1.2790 acc=0.5641 | Val: loss=1.3336 acc=0.5589 | LR=5.00e-04 | 2054.3s                                                                                                             
+Epoch  19/100 | Tr: loss=1.2773 acc=0.5645 | Val: loss=1.3689 acc=0.5510 | LR=5.00e-04 | 2301.1s  
+Epoch  20/100 | Tr: loss=1.2755 acc=0.5655 | Val: loss=1.3702 acc=0.5544 | LR=2.50e-04 | 2201.6s                                                                  
+Epoch  21/100 | Tr: loss=1.2674 acc=0.5693 | Val: loss=1.3693 acc=0.5533 | LR=2.50e-04 | 2251.2s                                                                  
+Epoch  22/100 | Tr: loss=1.2655 acc=0.5697 | Val: loss=1.3408 acc=0.5598 | LR=2.50e-04 | 2061.4s  
+Epoch  23/100 | Tr: loss=1.2645 acc=0.5701 | Val: loss=1.3415 acc=0.5603 | LR=2.50e-04 | 3307.9s                                                                  
+Epoch  24/100 | Tr: loss=1.2639 acc=0.5708 | Val: loss=1.3886 acc=0.5524 | LR=2.50e-04 | 2139.2s                                                                  
+Epoch  25/100 | Tr: loss=1.2628 acc=0.5709 | Val: loss=1.3480 acc=0.5567 | LR=2.50e-04 | 2099.8s                                                                                    
+Epoch  26/100 | Tr: loss=1.2621 acc=0.5714 | Val: loss=1.3583 acc=0.5575 | LR=1.25e-04 | 2043.2s  
+Epoch  27/100 | Tr: loss=1.2579 acc=0.5731 | Val: loss=1.3652 acc=0.5558 | LR=1.25e-04 | 2142.8s                                                                                    
+Epoch  28/100 | Tr: loss=1.2575 acc=0.5735 | Val: loss=1.3640 acc=0.5567 | LR=1.25e-04 | 2059.9s                                                                                    
+Epoch  29/100 | Tr: loss=1.2566 acc=0.5734 | Val: loss=1.3328 acc=0.5640 | LR=1.25e-04 | 2847.8s  
+Epoch  30/100 | Tr: loss=1.2562 acc=0.5738 | Val: loss=1.3698 acc=0.5540 | LR=1.25e-04 | 2084.1s                                                                                    
+Epoch  31/100 | Tr: loss=1.2561 acc=0.5738 | Val: loss=1.3480 acc=0.5606 | LR=1.25e-04 | 57438.4s                                                                                   
+Epoch  32/100 | Tr: loss=1.2547 acc=0.5744 | Val: loss=1.3631 acc=0.5564 | LR=6.25e-05 | 3893.1s
+Epoch  33/100 | Tr: loss=1.2533 acc=0.5750 | Val: loss=1.3937 acc=0.5537 | LR=6.25e-05 | 2153.6s                                                                                    
+Epoch  34/100 | Tr: loss=1.2524 acc=0.5753 | Val: loss=1.3468 acc=0.5631 | LR=6.25e-05 | 2113.7s 
+Epoch  35/100 | Tr: loss=1.2524 acc=0.5755 | Val: loss=1.3783 acc=0.5575 | LR=6.25e-05 | 2112.9s                                                                                    
+Epoch  36/100 | Tr: loss=1.2526 acc=0.5751 | Val: loss=1.3646 acc=0.5595 | LR=6.25e-05 | 4801.4s                                                                                    
+Epoch  37/100 | Tr: loss=1.2523 acc=0.5754 | Val: loss=1.3620 acc=0.5579 | LR=6.25e-05 | 2151.7s  
+Epoch  38/100 | Tr: loss=1.2517 acc=0.5757 | Val: loss=1.3638 acc=0.5594 | LR=3.13e-05 | 2090.1s                                                                                    
+Epoch  39/100 | Tr: loss=1.2505 acc=0.5762 | Val: loss=1.3896 acc=0.5554 | LR=3.13e-05 | 2189.6s     
+Epoch  40/100 | Tr: loss=1.2504 acc=0.5765 | Val: loss=1.3676 acc=0.5577 | LR=3.13e-05 | 2131.7s  
+
+-----
+TEKRAR BAŞLANDI! 
+Epoch   1/100 | Tr: loss=1.6618 acc=0.4125 | Val: loss=1.4915 acc=0.4708 | LR=1.00e-03 | 2178.9s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.4708)
+Epoch   2/100 | Tr: loss=1.4839 acc=0.4752 | Val: loss=1.4172 acc=0.5090 | LR=1.00e-03 | 2159.5s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.5090)
+Epoch   3/100 | Tr: loss=1.4113 acc=0.5077 | Val: loss=1.4009 acc=0.5180 | LR=1.00e-03 | 2179.5s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5180)
+Epoch   4/100 | Tr: loss=1.3779 acc=0.5202 | Val: loss=1.3706 acc=0.5281 | LR=1.00e-03 | 4414.4s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5281)
+Epoch   5/100 | Tr: loss=1.3605 acc=0.5269 | Val: loss=1.4739 acc=0.5051 | LR=1.00e-03 | 2480.6s                                          
+Epoch   6/100 | Tr: loss=1.3482 acc=0.5310 | Val: loss=1.4227 acc=0.5263 | LR=1.00e-03 | 2114.7s                                          
+Epoch   7/100 | Tr: loss=1.3385 acc=0.5349 | Val: loss=1.3933 acc=0.5244 | LR=1.00e-03 | 2103.6s                                          
+Epoch   8/100 | Tr: loss=1.3320 acc=0.5374 | Val: loss=1.4538 acc=0.5169 | LR=1.00e-03 | 2169.7s   
+Epoch   9/100 | Tr: loss=1.3254 acc=0.5396 | Val: loss=1.4345 acc=0.5195 | LR=1.00e-03 | 2235.2s      
+Epoch  10/100 | Tr: loss=1.3215 acc=0.5416 | Val: loss=1.4277 acc=0.5211 | LR=1.00e-03 | 2144.0s                                                                                    
+Epoch  11/100 | Tr: loss=1.3172 acc=0.5432 | Val: loss=1.4765 acc=0.5135 | LR=1.00e-03 | 2116.5s                                                                                    
+Epoch  12/100 | Tr: loss=1.3132 acc=0.5455 | Val: loss=1.3735 acc=0.5378 | LR=1.00e-03 | 2142.8s                                                                                    
+Epoch  13/100 | Tr: loss=1.3101 acc=0.5467 | Val: loss=1.4163 acc=0.5385 | LR=5.00e-04 | 2116.6s                                                                                    
+Epoch  14/100 | Tr: loss=1.2950 acc=0.5537 | Val: loss=1.4290 acc=0.5277 | LR=5.00e-04 | 2117.1s     
+Epoch  15/100 | Tr: loss=1.2918 acc=0.5552 | Val: loss=1.4539 acc=0.5264 | LR=5.00e-04 | 2217.7s                                          
+Epoch  16/100 | Tr: loss=1.2900 acc=0.5562 | Val: loss=1.3682 acc=0.5464 | LR=5.00e-04 | 3119.3s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5464)
+Epoch  17/100 | Tr: loss=1.2876 acc=0.5577 | Val: loss=1.4050 acc=0.5386 | LR=5.00e-04 | 2115.6s    
+Epoch  18/100 | Tr: loss=1.2861 acc=0.5588 | Val: loss=1.4045 acc=0.5411 | LR=5.00e-04 | 2162.4s                                          
+Epoch  19/100 | Tr: loss=1.2845 acc=0.5606 | Val: loss=1.3608 acc=0.5475 | LR=5.00e-04 | 2149.1s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5475)
+Epoch  20/100 | Tr: loss=1.2820 acc=0.5615 | Val: loss=1.4140 acc=0.5412 | LR=5.00e-04 | 2095.9s                                          
+Epoch  21/100 | Tr: loss=1.2807 acc=0.5623 | Val: loss=1.3940 acc=0.5428 | LR=5.00e-04 | 2234.2s                                          
+Epoch  22/100 | Tr: loss=1.2791 acc=0.5637 | Val: loss=1.3982 acc=0.5429 | LR=5.00e-04 | 2249.2s                                          
+Epoch  23/100 | Tr: loss=1.2778 acc=0.5641 | Val: loss=1.4106 acc=0.5417 | LR=5.00e-04 | 2367.7s  
+Epoch  24/100 | Tr: loss=1.2763 acc=0.5648 | Val: loss=1.3466 acc=0.5559 | LR=5.00e-04 | 2192.3s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5559)
+Epoch  25/100 | Tr: loss=1.2753 acc=0.5654 | Val: loss=1.4085 acc=0.5419 | LR=5.00e-04 | 2165.3s                                          
+Epoch  26/100 | Tr: loss=1.2742 acc=0.5662 | Val: loss=1.4141 acc=0.5343 | LR=5.00e-04 | 2187.9s          
+Epoch  27/100 | Tr: loss=1.2726 acc=0.5666 | Val: loss=1.4000 acc=0.5413 | LR=5.00e-04 | 2150.5s                                          
+Epoch  28/100 | Tr: loss=1.2722 acc=0.5669 | Val: loss=1.4027 acc=0.5542 | LR=5.00e-04 | 2257.2s                                          
+Epoch  29/100 | Tr: loss=1.2711 acc=0.5677 | Val: loss=1.3633 acc=0.5510 | LR=5.00e-04 | 2043.8s                                    
+Epoch  30/100 | Tr: loss=1.2702 acc=0.5679 | Val: loss=1.3459 acc=0.5559 | LR=5.00e-04 | 2251.3s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5559)
+Epoch  31/100 | Tr: loss=1.2691 acc=0.5682 | Val: loss=1.4521 acc=0.5430 | LR=5.00e-04 | 2302.2s                                          
+Epoch  32/100 | Tr: loss=1.2681 acc=0.5687 | Val: loss=1.3398 acc=0.5574 | LR=5.00e-04 | 2130.9s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5574)
+Epoch  33/100 | Tr: loss=1.2672 acc=0.5692 | Val: loss=1.3770 acc=0.5509 | LR=5.00e-04 | 2139.8s                                          
+Epoch  34/100 | Tr: loss=1.2668 acc=0.5693 | Val: loss=1.3689 acc=0.5602 | LR=5.00e-04 | 2163.0s                                          
+Epoch  35/100 | Tr: loss=1.2661 acc=0.5697 | Val: loss=1.3453 acc=0.5554 | LR=5.00e-04 | 2139.0s                                          
+Epoch  36/100 | Tr: loss=1.2650 acc=0.5701 | Val: loss=1.3530 acc=0.5586 | LR=5.00e-04 | 2137.5s                                          
+Epoch  37/100 | Tr: loss=1.2638 acc=0.5706 | Val: loss=1.3927 acc=0.5504 | LR=5.00e-04 | 2119.4s  
+Epoch  38/100 | Tr: loss=1.2638 acc=0.5705 | Val: loss=1.3593 acc=0.5597 | LR=5.00e-04 | 2111.9s   
+Epoch  39/100 | Tr: loss=1.2623 acc=0.5711 | Val: loss=1.3714 acc=0.5546 | LR=5.00e-04 | 2086.6s                                                                                 
+Epoch  43/100 | Tr: loss=1.2533 acc=0.5750 | Val: loss=1.3709 acc=0.5604 | LR=2.50e-04 | 2112.2s
+Epoch  44/100 | Tr: loss=1.2529 acc=0.5751 | Val: loss=1.3743 acc=0.5563 | LR=2.50e-04 | 2097.0s                                                   
+Epoch  45/100 | Tr: loss=1.2524 acc=0.5753 | Val: loss=1.3350 acc=0.5638 | LR=2.50e-04 | 2276.0s                                                   
+  ✓ En iyi model kaydedildi (val_acc=0.5638)
+Epoch  46/100 | Tr: loss=1.2514 acc=0.5758 | Val: loss=1.3682 acc=0.5582 | LR=2.50e-04 | 2214.3s                                                   
+Epoch  47/100 | Tr: loss=1.2512 acc=0.5757 | Val: loss=1.3438 acc=0.5629 | LR=2.50e-04 | 2113.0s                                                   
+Epoch  48/100 | Tr: loss=1.2506 acc=0.5762 | Val: loss=1.3986 acc=0.5524 | LR=2.50e-04 | 2098.7s    
+Epoch  49/100 | Tr: loss=1.2502 acc=0.5763 | Val: loss=1.3522 acc=0.5590 | LR=2.50e-04 | 2186.1s                                                   
+Epoch  50/100 | Tr: loss=1.2501 acc=0.5766 | Val: loss=1.3571 acc=0.5630 | LR=2.50e-04 | 2085.2s                                                   
+Epoch  51/100 | Tr: loss=1.2493 acc=0.5767 | Val: loss=1.3360 acc=0.5624 | LR=2.50e-04 | 2117.4s   
+.
+.
+.
+Epoch  57/100 | Tr: loss=1.2428 acc=0.5791 | Val: loss=1.3562 acc=0.5601 | LR=1.25e-04 | 2131.2s
+Epoch  58/100 | Tr: loss=1.2422 acc=0.5792 | Val: loss=1.3733 acc=0.5586 | LR=1.25e-04 | 2101.2s  
+Epoch  59/100 | Tr: loss=1.2419 acc=0.5796 | Val: loss=1.3730 acc=0.5622 | LR=1.25e-04 | 2140.2s                               
+Epoch  60/100 | Tr: loss=1.2420 acc=0.5793 | Val: loss=1.3660 acc=0.5591 | LR=1.25e-04 | 2226.2s            
+Epoch  61/100 | Tr: loss=1.2411 acc=0.5798 | Val: loss=1.3749 acc=0.5588 | LR=1.25e-04 | 2240.5s                                          
+Epoch  62/100 | Tr: loss=1.2408 acc=0.5801 | Val: loss=1.3674 acc=0.5622 | LR=1.25e-04 | 2134.2s                                          
+Epoch  63/100 | Tr: loss=1.2408 acc=0.5797 | Val: loss=1.3491 acc=0.5614 | LR=6.25e-05 | 2167.1s                                          
+Epoch  64/100 | Tr: loss=1.2388 acc=0.5806 | Val: loss=1.3609 acc=0.5615 | LR=6.25e-05 | 2150.6s                                          
+Epoch  65/100 | Tr: loss=1.2385 acc=0.5809 | Val: loss=1.3696 acc=0.5575 | LR=6.25e-05 | 2133.4s        
+
+-----
+TEKRAR BAŞLANDI! 
+=======================================================
+  Model    : HYBRID
+  Cihaz    : mps
+  Epochs   : 1 → 100
+  Batch    : 256
+  Parametre: 426,520
+=======================================================
+
+Epoch   1/100 | Tr: loss=2.0074 acc=0.4136 | Val: loss=1.8427 acc=0.4817 | LR=5.00e-04 | 2049.1s       
+  ✓ En iyi model kaydedildi (val_acc=0.4817)
+Epoch   2/100 | Tr: loss=1.8527 acc=0.4836 | Val: loss=1.7872 acc=0.5048 | LR=5.00e-04 | 4644.8s  
+  ✓ En iyi model kaydedildi (val_acc=0.5048)
+Epoch   3/100 | Tr: loss=1.7988 acc=0.5067 | Val: loss=1.7819 acc=0.5068 | LR=5.00e-04 | 2058.4s
+  ✓ En iyi model kaydedildi (val_acc=0.5068)
+Epoch   4/100 | Tr: loss=1.7710 acc=0.5184 | Val: loss=1.7569 acc=0.5221 | LR=5.00e-04 | 2136.8s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.5221)
+Epoch   5/100 | Tr: loss=1.7550 acc=0.5255 | Val: loss=1.7359 acc=0.5307 | LR=5.00e-04 | 2055.6s                                                                                    
+  ✓ En iyi model kaydedildi (val_acc=0.5307)
+Epoch   6/100 | Tr: loss=1.7443 acc=0.5296 | Val: loss=1.7473 acc=0.5266 | LR=5.00e-04 | 2055.7s                                                                                    
+Epoch   7/100 | Tr: loss=1.7366 acc=0.5330 | Val: loss=1.7148 acc=0.5396 | LR=5.00e-04 | 2080.8s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5396)
+Epoch   8/100 | Tr: loss=1.7307 acc=0.5357 | Val: loss=1.7486 acc=0.5303 | LR=5.00e-04 | 2068.2s                                          
+Epoch   9/100 | Tr: loss=1.7252 acc=0.5381 | Val: loss=1.7578 acc=0.5296 | LR=5.00e-04 | 2859.4s 
+Epoch  10/100 | Tr: loss=1.7216 acc=0.5400 | Val: loss=1.7163 acc=0.5379 | LR=5.00e-04 | 2126.0s                                          
+Epoch  11/100 | Tr: loss=1.7179 acc=0.5415 | Val: loss=1.7626 acc=0.5203 | LR=5.00e-04 | 2050.8s
+Epoch  12/100 | Tr: loss=1.7147 acc=0.5433 | Val: loss=1.7437 acc=0.5348 | LR=5.00e-04 | 2051.5s      
+Epoch  13/100 | Tr: loss=1.7121 acc=0.5443 | Val: loss=1.7098 acc=0.5377 | LR=5.00e-04 | 2042.7s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5377)
+Epoch  14/100 | Tr: loss=1.7097 acc=0.5457 | Val: loss=1.7349 acc=0.5318 | LR=5.00e-04 | 2037.3s   
+Epoch  15/100 | Tr: loss=1.7074 acc=0.5468 | Val: loss=1.7423 acc=0.5375 | LR=5.00e-04 | 2053.4s                                          
+Epoch  16/100 | Tr: loss=1.7053 acc=0.5479 | Val: loss=1.7912 acc=0.5211 | LR=5.00e-04 | 2184.7s                                            
+Epoch  17/100 | Tr: loss=1.7033 acc=0.5495 | Val: loss=1.7419 acc=0.5360 | LR=5.00e-04 | 2091.6s                                          
+Epoch  18/100 | Tr: loss=1.7013 acc=0.5517 | Val: loss=1.7403 acc=0.5394 | LR=5.00e-04 | 2063.7s 
+Epoch  19/100 | Tr: loss=1.6990 acc=0.5535 | Val: loss=1.6887 acc=0.5583 | LR=5.00e-04 | 4902.6s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5583)
+Epoch  20/100 | Tr: loss=1.6966 acc=0.5563 | Val: loss=1.7134 acc=0.5497 | LR=5.00e-04 | 2084.5s      
+Epoch  21/100 | Tr: loss=1.6939 acc=0.5578 | Val: loss=1.7441 acc=0.5413 | LR=5.00e-04 | 2082.8s     
+Epoch  22/100 | Tr: loss=1.6922 acc=0.5592 | Val: loss=1.7150 acc=0.5490 | LR=5.00e-04 | 2040.0s          
+Epoch  23/100 | Tr: loss=1.6904 acc=0.5602 | Val: loss=1.7250 acc=0.5469 | LR=5.00e-04 | 2042.2s              
+Epoch  24/100 | Tr: loss=1.6891 acc=0.5608 | Val: loss=1.6964 acc=0.5577 | LR=5.00e-04 | 2030.3s                                                                                    
+Epoch  25/100 | Tr: loss=1.6874 acc=0.5620 | Val: loss=1.6905 acc=0.5593 | LR=5.00e-04 | 2010.4s    
+Epoch  26/100 | Tr: loss=1.6862 acc=0.5623 | Val: loss=1.7076 acc=0.5520 | LR=5.00e-04 | 2048.6s                                          
+Epoch  27/100 | Tr: loss=1.6851 acc=0.5631 | Val: loss=1.6955 acc=0.5571 | LR=5.00e-04 | 2048.5s                                                                                                                                           
+
+----------
+TEKRAR BAŞLANDI! 
+=======================================================
+  Model    : HYBRID
+  Cihaz    : mps
+  Epochs   : 1 → 100
+  Batch    : 256
+  Parametre: 2,783,512
+=======================================================
+Epoch   1/100 | Tr: loss=1.9047 acc=0.4624 | Val: loss=1.7581 acc=0.5277 | LR=3.00e-04 | 6097.4s
+  ✓ En iyi model kaydedildi (val_acc=0.5277)
+Epoch   2/100 | Tr: loss=1.7463 acc=0.5328 | Val: loss=1.6723 acc=0.5632 | LR=3.00e-04 | 6274.1s 
+  ✓ En iyi model kaydedildi (val_acc=0.5632)
+Epoch   3/100 | Tr: loss=1.7080 acc=0.5502 | Val: loss=1.6587 acc=0.5712 | LR=3.00e-04 | 6492.4s                                                                                                             
+  ✓ En iyi model kaydedildi (val_acc=0.5712)
+Epoch   4/100 | Tr: loss=1.6881 acc=0.5597 | Val: loss=1.6721 acc=0.5669 | LR=3.00e-04 | 6505.6s       
+Epoch   5/100 | Tr: loss=1.6743 acc=0.5657 | Val: loss=1.6707 acc=0.5666 | LR=3.00e-04 | 6692.5s     
+Epoch   6/100 | Tr: loss=1.6639 acc=0.5707 | Val: loss=1.6518 acc=0.5744 | LR=3.00e-04 | 6455.2s                                                                                                             
+  ✓ En iyi model kaydedildi (val_acc=0.5744)   
+Epoch   7/100 | Tr: loss=1.6562 acc=0.5748 | Val: loss=1.6636 acc=0.5685 | LR=3.00e-04 | 6470.4s                                                                                                             
+Epoch   8/100 | Tr: loss=1.6499 acc=0.5770 | Val: loss=1.6677 acc=0.5734 | LR=3.00e-04 | 6424.7s     
+Epoch   9/100 | Tr: loss=1.6447 acc=0.5795 | Val: loss=1.6802 acc=0.5707 | LR=3.00e-04 | 6864.5s 
+Epoch   9/100 | Tr: loss=1.6447 acc=0.5795 | Val: loss=1.6802 acc=0.5707 | LR=3.00e-04 | 6864.5s                                                                  
+Epoch  10/100 | Tr: loss=1.6398 acc=0.5819 | Val: loss=1.6973 acc=0.5654 | LR=3.00e-04 | 6783.6s           
+Epoch  11/100 | Tr: loss=1.6360 acc=0.5836 | Val: loss=1.6755 acc=0.5748 | LR=3.00e-04 | 6823.8s   
+Epoch  12/100 | Tr: loss=1.6325 acc=0.5851 | Val: loss=1.6995 acc=0.5623 | LR=3.00e-04 | 12742.1s      
+Epoch  13/100 | Tr: loss=1.6296 acc=0.5866 | Val: loss=1.6832 acc=0.5763 | LR=3.00e-04 | 6594.0s    
+Epoch  14/100 | Tr: loss=1.6269 acc=0.5878 | Val: loss=1.6708 acc=0.5726 | LR=3.00e-04 | 6499.2s     
+Epoch  15/100 | Tr: loss=1.6239 acc=0.5892 | Val: loss=1.6920 acc=0.5657 | LR=1.50e-04 | 6682.5s      
+Epoch  16/100 | Tr: loss=1.6110 acc=0.5953 | Val: loss=1.7105 acc=0.5706 | LR=1.50e-04 | 6878.4s   
+Epoch  17/100 | Tr: loss=1.6091 acc=0.5960 | Val: loss=1.6786 acc=0.5786 | LR=1.50e-04 | 9559.4s      
+Epoch  18/100 | Tr: loss=1.6075 acc=0.5965 | Val: loss=1.6609 acc=0.5828 | LR=1.50e-04 | 6715.0s     
+Epoch  19/100 | Tr: loss=1.6056 acc=0.5974 | Val: loss=1.7005 acc=0.5711 | LR=1.50e-04 | 9699.8s                                                                                    
+Epoch  20/100 | Tr: loss=1.6049 acc=0.5980 | Val: loss=1.6956 acc=0.5734 | LR=1.50e-04 | 6527.9s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+Epoch  21/100 | Tr: loss=1.6037 acc=0.5980 | Val: loss=1.7008 acc=0.5770 | LR=1.50e-04 | 6518.3s
+Epoch  22/100 | Tr: loss=1.6032 acc=0.5985 | Val: loss=1.6743 acc=0.5801 | LR=1.50e-04 | 6632.5s    
+Epoch  23/100 | Tr: loss=1.6023 acc=0.5991 | Val: loss=1.6921 acc=0.5749 | LR=1.50e-04 | 6667.0s                                                                    

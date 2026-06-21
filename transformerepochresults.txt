@@ -1,0 +1,14 @@
+python train.py --model transformer
+source venv/bin/activate
+python train.py --model transformer --resume 
+
+Epoch   1/100 | Tr: loss=2.0202 acc=0.3938 | Val: loss=1.8229 acc=0.4681 | LR=3.00e-04 | 3915.2s
+  ✓ En iyi model kaydedildi (val_acc=0.4681)
+Epoch   3/100 | Tr: loss=1.7576 acc=0.5100 | Val: loss=1.7253 acc=0.5227 | LR=3.00e-04 | 3919.7s
+  ✓ En iyi model kaydedildi (val_acc=0.5227)
+Epoch   4/100 | Tr: loss=1.7249 acc=0.5312 | Val: loss=1.6830 acc=0.5517 | LR=3.00e-04 | 3933.3s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5517)
+Epoch   5/100 | Tr: loss=1.6852 acc=0.5546 | Val: loss=1.6457 acc=0.5702 | LR=3.00e-04 | 5848.3s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5702)
+Epoch   6/100 | Tr: loss=1.6701 acc=0.5611 | Val: loss=1.6531 acc=0.5660 | LR=3.00e-04 | 3876.2s                                          
+  ✓ En iyi model kaydedildi (val_acc=0.5660)
